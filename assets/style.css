@@ -7,6 +7,8 @@
 
 /* header */
 
+
+
 /* navbar */
 
 nav {
@@ -47,7 +49,6 @@ li {
 /* jubmo */
 
 .container {
-    height: 500px;
     background-color: #B4D0E7;
 }
 
@@ -55,16 +56,17 @@ li {
     max-width: 60%;
     height: 100%;
     margin: auto;
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 h1 {
-    font-size: 3.5rem;
-    padding-bottom: 2rem;
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
 }
 
 p {
-    padding-bottom: 1.2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
 }
 
 .jumbo-bottom {
@@ -72,18 +74,27 @@ p {
     position: relative;
 }
 
+.inizia{
+    color: white;
+    background-color: #0061FF;
+    padding: .5rem;
+}
+
 .annulla {
-    padding-top: 1.2rem;
+    padding-top: 1.5rem;
     padding-bottom: 1.2rem;
 }
 
 .fa-sharp {
     position: absolute;
-    bottom: 0;
+    bottom: 1;
     left: 0;
     font-size: 2rem;
 }
 
-.jumbo-img {
+
+.jumbo-img { /* capire come far sbordare l'img da sotto */
     width: 60%;
+    position: relative;
+    top: 35px;
 }
