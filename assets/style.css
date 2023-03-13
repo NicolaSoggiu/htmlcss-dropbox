@@ -119,7 +119,7 @@ main{
 }
 
 
-.first, .second, .third{
+.first, .second, .third, .fourth{
     max-width: 60%;
     margin: auto;
 }
@@ -258,4 +258,21 @@ li{
 
 .mini-card img{
     width: 100%;
+}
+
+/* section fourth */
+
+.fourth{
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+
+.our-client{
+    font-size: 1rem;
+}
+
+/* section fifth */
+
+.fifth{
+    padding-top: 5rem;
 }
