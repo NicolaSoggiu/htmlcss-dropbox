@@ -37,7 +37,7 @@ nav {
     padding-right: 1rem;
 }
 
-ul {
+.ul-header{
     display: flex;
     list-style: none;
 }
@@ -57,12 +57,11 @@ li {
 
 .container {
     padding-top: 4rem;
-    height: 500px;
     background-color: #B4D0E7;
 }
 
 .header-title {
-    max-width: 60%;
+    max-width: 70%;
     height: 100%;
     margin: auto;
     padding-top: 3rem;
@@ -111,7 +110,109 @@ span{
 
 
 .jumbo-img { /* capire come far sbordare l'img da sotto */
-    width: 60%;
+    width: 100%;
     position: relative;
-    top: 30px;
+    top: 35px;
 }
+
+/* main */
+
+main{
+    padding-top: 6rem;
+}
+
+
+.first{
+    max-width: 60%;
+    margin: auto;
+}
+
+h2{
+    padding-bottom: 2rem;
+}
+
+.fatturazione{
+    padding-right: 2.5rem;
+}
+
+
+.piano-business{
+    display: flex;
+    margin: auto;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.card{
+    width: calc(100% / 3);
+    border: 1px solid black;
+    /* height: 300px; */
+}
+
+.card-top{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: .4rem;
+}
+
+ul{
+    list-style: none;
+    padding: 1rem;
+}
+
+li{
+    padding: .5eem;
+}
+
+.fa-solid{
+    padding-right: .5rem;
+}
+
+.prova{
+    color: white;
+    background-color: #0061FF;
+    background-size: cover;
+    text-align: center;
+}
+
+.month{
+    color: grey;
+}
+
+.acquista{
+    color: #0061FF;
+}
+
+/* .contattaci{
+    font-size: .8rem;
+} */
+
+.fa-check{
+    color: #0061FF;
+}
+
+ 
+.card-rotate{
+    width: 100%;
+    border: 1px solid black;
+  
+    margin-top: 1rem;
+} 
+
+.card-bottom{
+    position: relative;
+}
+
+.card-bottom > * {
+    padding: 1.5rem;
+}
+
+.contact{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: white;
+    background-color: #0061FF;
+}
+
+
