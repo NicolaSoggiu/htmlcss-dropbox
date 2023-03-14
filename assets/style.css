@@ -7,6 +7,16 @@
 
 /* general */
 
+h1 {
+    font-size: 3.2rem;
+    padding-bottom: .5rem;
+}
+
+h2 {
+    padding-bottom: 2rem;
+}
+
+
 ul {
     list-style: none;
     padding: 1rem;
@@ -18,16 +28,7 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-h1 {
-    font-size: 3.2rem;
-    padding-bottom: .5rem;
-}
-
-h2 {
-    padding-bottom: 2rem;
+    color: white;
 }
 
 p {
@@ -70,15 +71,29 @@ nav {
 .ul-header {
     display: flex;
     list-style: none;
+    align-items: stretch;
+}
+
+.link-nav {
+    color: black;
 }
 
 
-.inizia-nav { /*sistemare il bottone */
+.link-nav:hover {
+    background-color: #0061FF;
+    border-radius: 5px;
+}
+
+.inizia-nav {
     background-color: #0061FF;
     margin-right: 1rem;
     background-size: contain;
     color: white;
     padding-inline: 1rem;
+}
+
+#arrow {
+    color: black;
 }
 
 /* jubmo */
