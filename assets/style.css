@@ -119,7 +119,7 @@ main{
 }
 
 
-.first, .second, .third, .fourth{
+.first, .second, .third, .fourth, .seventh{
     max-width: 60%;
     margin: auto;
 }
@@ -350,3 +350,46 @@ li{
 #channel{
     background-color: #FFD830;
 }
+
+/* section sixth */
+
+.sixth{
+    background-color: #B4D0E7;
+}
+
+.sixth-text{
+    max-width: 60%;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+    color: #643B4F;
+}
+
+.free{
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    background-color: #FFFFFF;
+    padding: .5rem;
+    color: black;
+
+}
+
+/* section seventh */
+
+.seventh{
+    position: relative;
+}
+
+.text-seventh{
+    padding-top: 5rem;
+}
+
+.fa-chevron-down{
+    padding-left: 5rem;
+    position: absolute;
+    right: 0;
+}
+
+/* footer */
