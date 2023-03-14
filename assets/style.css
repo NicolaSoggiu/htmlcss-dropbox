@@ -26,7 +26,7 @@ li {
     padding: .7rem;
 }
 
-a {
+.a-nav {
     text-decoration: none;
     color: white;
 }
@@ -343,7 +343,7 @@ main {
 }
 
 .university {
-    width: 70%;
+    width: 80%;
     height: 100%;
     object-fit: contain;
     padding-left: 4rem;
@@ -352,11 +352,11 @@ main {
 
 .design-paragraph {
     padding-left: 2rem;
-    padding-top: 1rem;
+    padding-bottom: 2.5rem;
 }
 
 .author {
-    padding-top: 1rem;
+    padding-top: .5rem;
     padding-left: 2rem;
     padding-bottom: 4rem;
 }
@@ -368,9 +368,15 @@ main {
 
 #designit-center {
     width: 50%;
-    height: 50%;
-    padding: 2rem;
+    height: 40%;
+    padding-left: 2rem;
     filter: invert(0);
+}
+
+.border-img{
+    width: 20%;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
 }
 
 #arizona {
