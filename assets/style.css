@@ -276,23 +276,21 @@ li{
 .fifth{
     padding-top: 5rem;
     display: flex;
+    width: 100%;
 }
 
 .fifth-left{
-    /* width: calc(100% / 3); */
-    width: 25%;
+    width: calc( 100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
 .fifth-center{
-    width: 50%;
-    /* width: calc(100% / 3); */
+    width: calc( 100% / 3);
 }
 
 .fifth-right{
-    width: 25%;
-    /* width: calc(100% / 3); */
+    width: calc( 100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
@@ -304,23 +302,37 @@ li{
 
 .square-center{
     background-color: #F5F5F5;
-    padding: 1rem;
+    overflow-y: scroll;
 }
 
 .university{
-    width: 80%;
+    width: 70%;
     height: 100%;
     object-fit: contain;
-    padding-left: 2.5rem;
+    padding-left: 4rem;
+    filter: invert(1);
 }
 
 #designit{
     background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
 }
 
 #designit-center{
-    width: 40%;
-    padding: 0;
+    width: 50%;
+    padding: 2rem;
+    filter: invert(0);
+}
+
+.design-paragraph{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.author{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
 }
 
 #arizona{
@@ -355,41 +367,60 @@ li{
 
 .sixth{
     background-color: #B4D0E7;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .sixth-text{
     max-width: 60%;
     margin: auto;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
-    position: relative;
+    /* position: relative; */
     color: #643B4F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .free{
-    position: absolute;
-    top: 5rem;
-    right: 0;
+    /* position: absolute; */
+    /* top: 3rem; */
+    /* right: 0; */
     background-color: #FFFFFF;
     padding: .5rem;
+    padding-inline: 1rem;
     color: black;
 
 }
+
+#h2-sixth{
+    padding: 0;
+}
+
 
 /* section seventh */
 
 .seventh{
     position: relative;
+    padding-bottom: 5rem;
 }
 
 .text-seventh{
     padding-top: 5rem;
+    border-bottom: 1px solid black;
 }
 
 .fa-chevron-down{
     padding-left: 5rem;
     position: absolute;
     right: 0;
+}
+
+.seventh-row{
+    border-bottom: 1px solid black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* footer */
@@ -400,8 +431,34 @@ footer{
 }
 
 .footer-top{
+    max-width: 70%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.li-title{
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1.5rem;
+    
+}
+
+.li-footer{
+    padding-top: .5rem;
+    font-size: .8rem;
+}
+
+.footer-bottom{
+    max-width: 70%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fa-earth-americas{
+    padding-left: 1.5rem;
 }
 
