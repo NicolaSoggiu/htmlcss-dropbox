@@ -275,4 +275,78 @@ li{
 
 .fifth{
     padding-top: 5rem;
+    display: flex;
+}
+
+.fifth-left{
+    /* width: calc(100% / 3); */
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fifth-center{
+    width: 50%;
+    /* width: calc(100% / 3); */
+}
+
+.fifth-right{
+    width: 25%;
+    /* width: calc(100% / 3); */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square-left, .square-right{
+    width: 50%;
+    height: 50%;
+}
+
+.square-center{
+    background-color: #F5F5F5;
+    padding: 1rem;
+}
+
+.university{
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+    padding-left: 2.5rem;
+}
+
+#designit{
+    background-color: #A2D39B;
+}
+
+#designit-center{
+    width: 40%;
+    padding: 0;
+}
+
+#arizona{
+    background-color: #61082B;
+}
+
+#florida{
+    background-color: #0093CE;
+}
+
+#tops{
+    background-color: #FF1C1C;
+}
+
+#bicycle{
+    background-color: #D5001F;
+}
+
+#hearts{
+    background-color: #B4D0E7;
+}
+
+#lonely{
+    background-color: #0D2481;
+}
+
+#channel{
+    background-color: #FFD830;
 }
