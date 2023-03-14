@@ -46,11 +46,12 @@ li {
     padding: .7rem;
 }
 
-.inizia {
+.inizia-nav { /*sistemare il bottone */
     background-color: #0061FF;
     margin-right: 1rem;
     background-size: contain;
     color: white;
+    padding-inline: 1rem;
 }
 
 /* jubmo */
@@ -104,11 +105,11 @@ span{
     position: absolute;
     left: 0;
     font-size: 2rem;
-    padding-top: 1.2rem;
+    padding-top: 2rem;
 }
 
 
-.jumbo-img { /* capire come far sbordare l'img da sotto */
+.jumbo-img {
     width: 100%;
 }
 
@@ -159,7 +160,7 @@ ul{
 }
 
 li{
-    padding: .5eem;
+    padding: .5rem;
 }
 
 .fa-solid{
@@ -169,12 +170,17 @@ li{
 .prova{
     color: white;
     background-color: #0061FF;
-    background-size: cover;
     text-align: center;
+    padding: .5rem;
+    margin: 1rem;
 }
 
 .month{
     color: grey;
+}
+
+.text-acquista{
+    padding-left: 1.2rem;
 }
 
 .acquista{
@@ -186,11 +192,16 @@ li{
     color: #0061FF;
 }
 
- 
+.hr-section{
+    width: 25%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.2rem;
+}
+
 .card-rotate{
     width: 100%;
     border: 1px solid black;
-  
     margin-top: 1rem;
 } 
 
@@ -199,15 +210,25 @@ li{
 }
 
 .card-bottom > * {
-    padding: 1.5rem;
+    padding: 1.2rem;
 }
 
-.contact{
+.price{
+    font-size: .8rem;
+}
+
+#contact{
     position: absolute;
     right: 1rem;
     top: 1rem;
     color: white;
     background-color: #0061FF;
+    font-size: .8rem;
+    padding: 1rem;
+}
+
+#team-text{
+    padding-top: 2.5rem;
 }
 
 /* second section */
@@ -237,7 +258,7 @@ li{
 .search-partner{
     border: 1px solid black;
     background-color: white;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 /* section third */
@@ -296,13 +317,14 @@ li{
 }
 
 .square-left, .square-right{
-    width: 50%;
-    height: 50%;
+    width: calc(100% / 2);
+    height: 200px;
 }
 
 .square-center{
     background-color: #F5F5F5;
     overflow-y: scroll;
+    height: 400px;
 }
 
 .university{
@@ -320,6 +342,7 @@ li{
 
 #designit-center{
     width: 50%;
+    height: 50%;
     padding: 2rem;
     filter: invert(0);
 }
@@ -376,7 +399,6 @@ li{
     margin: auto;
     padding-top: 3rem;
     padding-bottom: 5rem;
-    /* position: relative; */
     color: #643B4F;
     display: flex;
     justify-content: space-between;
@@ -384,9 +406,6 @@ li{
 }
 
 .free{
-    /* position: absolute; */
-    /* top: 3rem; */
-    /* right: 0; */
     background-color: #FFFFFF;
     padding: .5rem;
     padding-inline: 1rem;
@@ -413,6 +432,7 @@ li{
 
 .fa-chevron-down{
     padding-left: 5rem;
+    padding-right: 1.5rem;
     position: absolute;
     right: 0;
 }
@@ -429,6 +449,8 @@ footer{
     color: white;
     background-color: black;
 }
+
+/* footer top */
 
 .footer-top{
     max-width: 70%;
@@ -451,6 +473,8 @@ footer{
     font-size: .8rem;
 }
 
+/* footer bottom */
+
 .footer-bottom{
     max-width: 70%;
     margin: auto;
@@ -459,6 +483,14 @@ footer{
 }
 
 .fa-earth-americas{
-    padding-left: 1.5rem;
+    padding-left: 2rem;
+}
+
+#footer-hr{
+    width: 12%;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
 }
 
