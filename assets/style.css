@@ -393,3 +393,15 @@ li{
 }
 
 /* footer */
+
+footer{
+    color: white;
+    background-color: black;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
