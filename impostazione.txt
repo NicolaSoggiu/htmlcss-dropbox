@@ -1,0 +1,24 @@
+header: 
+grande con un menu fisso (fixed), una nav con un ul interno e spaziare con flex il blocco sinistro con quello destro. la nav non ha limite di contenuto in larghezza a differenza del blocco sotto.
+gli allineamenti del blocco da fare con flexbox.
+immagine da spostare o con il position relative, o con transform translate, oppure con il margine negativo.
+
+
+main:
+il resto della pagina ha un limite maggiore rispetto al blocco dell'header, quindi meglio fare container separati per ogni sezione in modo da dare limiti diversi al contenuto e riuscire a dare anche lo sfondo a tutto schermo alla sezione.
+main composto da varie sezioni, la prima contiene le 3 in fila e l'ultima sotto. (da distanziare con il gap)
+elenco puntato con nasconsto il pallino della lista e metto l'icona.
+l'altra sezione è immagine (fare un div con dentro l'immagine e un altro div per il testo) più testo affiancato con un gap in mezzo.
+altra sezione con dentro le 6 card.
+altra sezione con titolo e link
+altra sezione diversa con il contenuto tutto schermo e quindi senza limite al contenuto, sezione fatta tutta a quadrati (dividere in 3 blocchi, sinitro centrale e destro che prendono 1/3 dello spazio e al loro interno rispartire lo spazio sempre con flex dando la metà di larghezza di ogni quadrato e usanre il wrap) da fare con l'aspect ratio. (1 a 1) l'elemento centrale deve avere un altezza in modo da dare l'overflow e far uscire la barra laterale di scorrimento.
+altra sezione con sfondo a tutto schermo, qunidi sezione a tutto schermo con all'interno un container che limita il contenuto (titolo e bottone/link)
+altra sezione con l'effetto da fare con hover per mostrare il testo al click BONUS
+
+
+footer:
+nel footer la dimensione del limite è la stessa dell'header.
+sfondo a tutto schermo con contenuto ristretto, 5 colonne da fare con le liste o con i div da affiancare con flex.
+la seconda parte del footer ha un divisore che può essere un hr con una larghezza minore oppure può essere un div con un bordo.
+
+

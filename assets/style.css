@@ -92,6 +92,24 @@ nav {
     padding-inline: 1rem;
 }
 
+#dropdown-menu{
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+    opacity: 0;
+}
+
+.dropdown:hover{
+    display: block;
+    padding-top: 2rem;
+    opacity: 1;
+    background-color: white;
+    color: black;
+}
+
+
 #arrow {
     color: black;
 }
@@ -148,12 +166,12 @@ main {
 }
 
 
-.first, .second, .third, .fourth, .seventh {
+.piani, .found, .business, .business-info, .answer {
     max-width: 60%;
     margin: auto;
 }
 
-/* first section */
+/* piani */
 
 .fatturazione {
     padding-right: 2.5rem;
@@ -247,9 +265,9 @@ main {
     padding: 1rem;
 }
 
-/* second section */
+/* found */
 
-.second {
+.found {
     padding-top: 5rem;
     display: flex;
 }
@@ -277,9 +295,9 @@ main {
     padding: .5rem;
 }
 
-/* section third */
+/* business */
 
-.third {
+.business {
     padding-top: 5rem;
 }
 
@@ -297,9 +315,9 @@ main {
     width: 100%;
 }
 
-/* section fourth */
+/* business-info */
 
-.fourth {
+.business-info {
     padding-top: 5rem;
     font-size: 2rem;
 }
@@ -308,9 +326,9 @@ main {
     font-size: 1rem;
 }
 
-/* section fifth */
+/* collab */
 
-.fifth {
+.collab {
     padding-top: 5rem;
     display: flex;
     width: 100%;
@@ -407,9 +425,9 @@ main {
     background-color: #FFD830;
 }
 
-/* section sixth */
+/* try-business */
 
-.sixth {
+.try-business {
     background-color: #B4D0E7;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -438,9 +456,9 @@ main {
 
 }
 
-/* section seventh */
+/* answer */
 
-.seventh {
+.answer {
     position: relative;
     padding-bottom: 5rem;
 }
