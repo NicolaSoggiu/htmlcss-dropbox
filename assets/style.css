@@ -12,7 +12,7 @@ h1 {
     padding-bottom: .5rem;
 }
 
-h2 {
+h2, p {
     padding-bottom: 2rem;
 }
 
@@ -32,12 +32,7 @@ li {
 }
 
 p {
-    padding-bottom: 2rem;
     font-size: .8rem;
-}
-
-span {
-    font-size: 1rem;
 }
 
 /* navbar */
@@ -45,7 +40,6 @@ span {
 nav {
     width: 100%;
     background-color: white;
-    height: 4rem;
     display: flex;
     font-size: .8rem;
     align-items: center;
@@ -70,8 +64,6 @@ nav {
 
 .ul-header {
     display: flex;
-    list-style: none;
-    align-items: stretch;
 }
 
 .link-nav {
@@ -244,10 +236,20 @@ main {
 
 .card-bottom {
     position: relative;
+    display: flex;
 }
 
 .card-bottom > * {
-    padding: 1.2rem;
+    padding-left: 1.2rem;
+}
+
+.entreprise{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.bottom-left{
+    flex: 0 0 60%;
 }
 
 #team-text {
@@ -284,7 +286,6 @@ main {
 
 .partner-text {
     width: 40%;
-    text-align: left;
     padding-left: 1.5rem;
     padding-top: 2.5rem;
 }
@@ -331,20 +332,19 @@ main {
 .collab {
     padding-top: 5rem;
     display: flex;
-    width: 100%;
 }
 
-.fifth-left {
+.collab-left {
     width: calc( 100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
-.fifth-center {
+.collab-center {
     width: calc( 100% / 3);
 }
 
-.fifth-right {
+.collab-right {
     width: calc( 100% / 3);
     display: flex;
     flex-wrap: wrap;
@@ -433,7 +433,7 @@ main {
     padding-bottom: 5rem;
 }
 
-.sixth-text {
+.try-business-text {
     max-width: 60%;
     margin: auto;
     padding-top: 3rem;
@@ -444,7 +444,7 @@ main {
     align-items: center;
 }
 
-#h2-sixth {
+#h2-try-business {
     padding: 0;
 }
 
@@ -463,13 +463,13 @@ main {
     padding-bottom: 5rem;
 }
 
-.seventh-row {
+.answer-row {
     border-bottom: 1px solid black;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-.text-seventh {
+.answer-text {
     padding-top: 5rem;
     border-bottom: 1px solid black;
 }
