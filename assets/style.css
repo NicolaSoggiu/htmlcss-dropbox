@@ -24,6 +24,7 @@ ul {
 
 li {
     padding: .7rem;
+    position: relative;
 }
 
 .a-nav {
@@ -84,23 +85,40 @@ nav {
     padding-inline: 1rem;
 }
 
-#dropdown-menu{
-    position: relative;
-}
-
 .dropdown{
+    cursor: pointer;
+}
+
+.dropdown-content{
+    display: none;
     position: absolute;
-    opacity: 0;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    z-index: 1;
+    top: 100%;
+    left: 0;
 }
 
-.dropdown:hover{
+.dropdown:hover .dropdown-content {
     display: block;
-    padding-top: 2rem;
-    opacity: 1;
-    background-color: white;
-    color: black;
-}
+  }
 
+.dropdown-content li {
+    background-color: #f1f1f1;
+    display: block;
+  }
+
+.dropdown-content li:hover {
+    background-color: #ddd;
+}
+  
+
+.dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
 
 #arrow {
     color: black;
