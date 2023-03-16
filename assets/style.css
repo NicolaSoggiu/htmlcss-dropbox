@@ -82,20 +82,17 @@ nav {
     margin-right: 1rem;
     background-size: contain;
     color: white;
-    padding-inline: 1rem;
+    padding-inline: 1rem; 
 }
 
-.dropdown{
+.dropdown {
     cursor: pointer;
 }
 
-.dropdown-content{
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 100%;
-    z-index: 1;
-    top: 100%;
     left: 0;
 }
 
@@ -261,12 +258,12 @@ main {
     padding-left: 1.2rem;
 }
 
-.entreprise{
+.entreprise {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
 
-.bottom-left{
+.bottom-left {
     flex: 0 0 60%;
 }
 
@@ -314,7 +311,7 @@ main {
     padding: .5rem;
 }
 
-.link-found, .link-try{
+.link-found, .link-try {
     color: black;
 }
 
@@ -405,7 +402,7 @@ main {
     padding-bottom: 4rem;
 }
 
-.border-img{
+.border-img {
     width: 20%;
     margin-left: 2rem;
     margin-bottom: 3rem;
@@ -524,7 +521,7 @@ footer {
     align-items: center;
 }
 
-.footer-top ul{
+.footer-top ul {
     flex: 1 0 auto;
 }
 
@@ -554,7 +551,7 @@ footer {
     padding-left: 1.5rem;
 }
 
-#footer-hr{
+#footer-hr {
     width: 12%;
     color: white;
     margin-top: 2rem;
