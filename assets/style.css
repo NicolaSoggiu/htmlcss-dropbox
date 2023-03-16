@@ -91,9 +91,8 @@ nav {
 
 .dropdown-content {
     display: none;
-    margin-top: 1.7rem;
     position: absolute;
-    background-color: white;
+    background-color: #f9f9f9;
     left: 0;
 }
 
