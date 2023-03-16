@@ -130,7 +130,6 @@ nav {
 
 .header-title {
     max-width: 70%;
-    height: 100%;
     margin: auto;
     padding-top: 3rem;
 }
@@ -292,7 +291,6 @@ main {
 .partner-img {
     width: 60%;
     height: 100%;
-    object-fit: contain;
 }
 
 .partner-img img {
@@ -386,19 +384,20 @@ main {
 
 .university {
     width: 50%;
-    height: 100%;
     object-fit: contain;
     filter: invert(1);
 }
 
-.design-paragraph {
+.design-paragraph, .author, #designit-center{
     padding-left: 2rem;
+}
+
+.design-paragraph {
     padding-bottom: 2.5rem;
 }
 
 .author {
     padding-top: .5rem;
-    padding-left: 2rem;
     padding-bottom: 4rem;
 }
 
@@ -416,7 +415,6 @@ main {
 #designit-center {
     width: 50%;
     height: 40%;
-    padding-left: 2rem;
     filter: invert(0);
 }
 
