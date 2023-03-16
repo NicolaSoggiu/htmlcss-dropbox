@@ -377,6 +377,9 @@ main {
 .square-left, .square-right {
     width: calc(100% / 2);
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .square-center {
@@ -385,10 +388,9 @@ main {
 }
 
 .university {
-    width: 80%;
+    width: 50%;
     height: 100%;
     object-fit: contain;
-    padding-left: 4rem;
     filter: invert(1);
 }
 
@@ -403,6 +405,12 @@ main {
     padding-bottom: 4rem;
 }
 
+.border-img{
+    width: 20%;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
 #designit {
     background-color: #A2D39B;
     border: 10px solid #D1E9CD;
@@ -413,12 +421,6 @@ main {
     height: 40%;
     padding-left: 2rem;
     filter: invert(0);
-}
-
-.border-img{
-    width: 20%;
-    margin-left: 2rem;
-    margin-bottom: 3rem;
 }
 
 #arizona {
