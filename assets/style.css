@@ -27,7 +27,7 @@ li {
     position: relative;
 }
 
-.a-nav {
+a, .a-nav {
     text-decoration: none;
     color: white;
 }
@@ -314,6 +314,10 @@ main {
     padding: .5rem;
 }
 
+.link-found, .link-try{
+    color: black;
+}
+
 /* business */
 
 .business {
@@ -343,6 +347,8 @@ main {
 
 .our-client {
     font-size: 1rem;
+    color: blue;
+    text-decoration: underline;
 }
 
 /* collab */
@@ -516,6 +522,10 @@ footer {
     align-items: center;
 }
 
+.footer-top ul{
+    flex: 1 0 auto;
+}
+
 .li-title {
     font-size: 1.5rem;
     padding-top: 3rem;
@@ -539,14 +549,14 @@ footer {
 }
 
 .fa-earth-americas {
-    padding-left: 2rem;
+    padding-left: 1.5rem;
 }
 
 #footer-hr{
     width: 12%;
     color: white;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     margin-bottom: 3rem;
 }
 
